@@ -3,12 +3,12 @@ public class Article implements SpecifArticle {
     int quantite;
     double prix_ht;
     double prix_ttc;
+    final double TVA = 1.196;
 
     Article(String d, int q, double ph){
         this.designation = d;
         this.quantite = q;
-        this.prix_ht = ph;
-        this.prix_ttc = ph * 1.196;
+        this.prix_ttc = ph * TVA;
     }
 
     @Override
@@ -39,5 +39,9 @@ public class Article implements SpecifArticle {
     @Override
     public void retirer(int q){
         this.quantite -=q;
+    }
+
+    public String toString(){
+        return "/" + this.designation + "/     " + this.prix_ttc + " euros     " + "("+this.quantite + " en stock)";
     }
 }
