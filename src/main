@@ -13,5 +13,6 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         c.ajouter(new Article(scan.nextLine(), scan.nextInt() , scan.nextDouble()));
         c.affiche();
+        //tt
     }
 }
