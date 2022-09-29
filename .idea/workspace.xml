@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70249c02-eddd-43b9-a40e-4df3f12acd73" name="Changes" comment="t">
-      <change afterPath="$PROJECT_DIR$/src/CatalogueArray.java" afterDir="false" />
+    <list default="true" id="70249c02-eddd-43b9-a40e-4df3f12acd73" name="Changes" comment="version final">
+      <change afterPath="$PROJECT_DIR$/src/CatalogueTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Catalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Catalogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CatalogueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CatalogueArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Livre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TestCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCatalogue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -89,7 +95,8 @@
       <workItem from="1664282735182" duration="6573000" />
       <workItem from="1664306030730" duration="417000" />
       <workItem from="1664364908408" duration="606000" />
-      <workItem from="1664449564767" duration="663000" />
+      <workItem from="1664449564767" duration="1005000" />
+      <workItem from="1664475014085" duration="1005000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1664306063806</created>
@@ -105,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664306321616</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="version final">
+      <created>1664450515811</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664450515811</updated>
+    </task>
+    <task id="LOCAL-00004" summary="version final">
+      <created>1664450539428</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664450539428</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +146,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="t" />
-    <option name="LAST_COMMIT_MESSAGE" value="t" />
+    <MESSAGE value="version final" />
+    <option name="LAST_COMMIT_MESSAGE" value="version final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

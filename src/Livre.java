@@ -10,7 +10,7 @@ public class Livre extends Article {
 
     @Override
     public String toString(){
-        return "/" + this.designation + "/     " + this.prix_ttc + " euros     " + "("+this.quantite + " en stock)" +
+        return super.toString() + "("+this.quantite + " en stock)" +
                 ", ISBN : " + this.ISBN + " (" + this.nbPages + " pages)";
     }
 }

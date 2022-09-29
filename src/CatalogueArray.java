@@ -12,8 +12,6 @@ public class CatalogueArray {
     }
 
     public void affichage(){
-
             System.out.println(cata.toString());
-
     }
 }
