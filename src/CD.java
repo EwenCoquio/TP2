@@ -11,7 +11,6 @@ public class CD extends Article {
 
     @Override
     public String toString(){
-        return super.toString() + "("+this.quantite + " en stock)" +
-                ", rubrique : " + this.rubrique + " (ecrit par " + this.auteur + ")";
+        return super.toString()  + ", rubrique : " + this.rubrique + " (ecrit par " + this.auteur + ")";
     }
 }

@@ -1,17 +1,17 @@
 import java.util.ArrayList;
 
-public class CatalogueArray {
+public class CatalogueArray implements Catalogue{
     ArrayList<Article> cata;
 
     CatalogueArray(){
         this.cata = new ArrayList<Article>();
     }
 
-    public void ajouterA(Article a){
+    public void ajouter(Article a){
         this.cata.add(a);
     }
 
-    public void affichage(){
+    public void affiche(){
             System.out.println(cata.toString());
     }
 }

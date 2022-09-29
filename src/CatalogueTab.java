@@ -1,4 +1,4 @@
-public class CatalogueTab {
+public class CatalogueTab implements Catalogue{
 
     Article[] cata;
     int nbrArt;

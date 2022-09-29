@@ -10,7 +10,6 @@ public class Livre extends Article {
 
     @Override
     public String toString(){
-        return super.toString() + "("+this.quantite + " en stock)" +
-                ", ISBN : " + this.ISBN + " (" + this.nbPages + " pages)";
+        return super.toString()  + ", ISBN : " + this.ISBN + " (" + this.nbPages + " pages)";
     }
 }

@@ -42,6 +42,6 @@ public class Article implements SpecifArticle {
     }
 
     public String toString(){
-        return "/" + this.designation + "/     " + this.prix_ttc + " euros     " + "("+this.quantite + " en stock)";
+        return "[" + this.designation + "]  :  " + this.prix_ttc + " euros  " + "("+this.quantite + " en stock)";
     }
 }

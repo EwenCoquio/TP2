@@ -1,28 +1,48 @@
 import java.util.Scanner;
+
 public class TestCatalogue {
-    public static void main(String[] argv){
+    public static void main(String[] argv) {
         boolean next = true;
         int choix;
+        String choix2;
+        Catalogue c = null;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Comment souhaitez vous faire votre catalogue ?");
+        System.out.println("Comment souhaitez vous faire votre catalogue ?  1/2");
         choix = scan.nextInt();
-        if (choix == 1){
-            CatalogueTab c = new CatalogueTab();
+        if (choix == 1) {
+            c = new CatalogueTab();
             System.out.println("choix : tableau");
+        } else if (choix == 2) {
+            c = new CatalogueArray();
+            System.out.println("choix : ArrayList");
         }
-        else if (choix == 2){
-            CatalogueArray c = new CatalogueArray();
-            System.out.println("choix : tableau");
+        while (next) {
+            System.out.println("Voulez vous ajouter un article ?  o/n");
+            choix2 = scan.next();
+            if (choix2.equals("n")) {
+                next = false;
+            } else if (choix2.equals("o")) {
+                System.out.println("Voulez vous renseigner un article simple OU detaille ?  1/2");
+                choix = scan.nextInt();
+                if (choix == 1 && c != null) {
+                    System.out.println("Veuillez rentrer un nom d'article, une quantite et un prix");
+                    String s = scan.next();
+                    int q = scan.nextInt();
+                    double p = scan.nextDouble();
+                    c.ajouter(new Article(s, q, p));
+                    c.affiche();
+                } else if (choix == 2 && c != null) {
+                    System.out.println("Est-ce un livre ou un CD ?  1/2");
+                    choix = scan.nextInt();
+                    if (choix == 1) {
+                        c.ajouter(new Livre(scan.next(), scan.nextInt(), scan.nextDouble(), scan.nextInt(), scan.next()));
+                        c.affiche();
+                    } else if (choix == 2) {
+                        c.ajouter(new CD(scan.next(), scan.nextInt(), scan.nextDouble(), scan.next(), scan.next()));
+                        c.affiche();
+                    }
+                }
+            }
         }
-        while(next){
-
-
-
-        }
-        CatalogueTab c = new CatalogueTab();
-        Scanner scan2 = new Scanner(System.in);
-        c.ajouter(new Article(scan2.nextLine(), scan2.nextInt() , scan2.nextDouble()));
-        c.affiche();
     }
-
 }
