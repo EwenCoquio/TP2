@@ -35,9 +35,11 @@ public class TestCatalogue {
                     System.out.println("Est-ce un livre ou un CD ?  1/2");
                     choix = scan.nextInt();
                     if (choix == 1) {
+                        System.out.println("Veuillez rentrer un nom d'article, une quantite, un prix, un nb de page et un ISBN");
                         c.ajouter(new Livre(scan.next(), scan.nextInt(), scan.nextDouble(), scan.nextInt(), scan.next()));
                         c.affiche();
                     } else if (choix == 2) {
+                        System.out.println("Veuillez rentrer un nom d'article, une quantite, un prix, un genre et un auteur");
                         c.ajouter(new CD(scan.next(), scan.nextInt(), scan.nextDouble(), scan.next(), scan.next()));
                         c.affiche();
                     }
