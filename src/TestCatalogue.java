@@ -12,7 +12,7 @@ public class TestCatalogue {
         if (choix == 1) {
             c = new CatalogueTab();
             System.out.println("choix : tableau");
-        } else if (choix == 2) {
+        } else if (choix == 2) { //juste mettre un else
             c = new CatalogueArray();
             System.out.println("choix : ArrayList");
         }
