@@ -12,6 +12,8 @@ public class CatalogueTab implements Catalogue{
         this.cata[nbrArt] = a;
         nbrArt++;
     }
+    
+    //refaire une methode ajouter qui retourne un booleen pour valider l'ajout
 
     public void affiche() {
         for(int i=0;i<nbrArt;i++){
