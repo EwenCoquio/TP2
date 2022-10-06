@@ -1,18 +1,20 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class TestCatalogue {
     public static void main(String[] argv) {
         boolean next = true;
+        boolean algo = true;
         int choix;
         String choix2;
         Catalogue c = null;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Comment souhaitez vous faire votre catalogue ?  1/2");
+        System.out.println("Comment souhaitez vous faire votre catalogue ?     1 -> tableau / 2 -> arrayList");
         choix = scan.nextInt();
         if (choix == 1) {
             c = new CatalogueTab();
             System.out.println("choix : tableau");
-        } else if (choix == 2) { //juste mettre un else
+        } else if (choix == 2) {
             c = new CatalogueArray();
             System.out.println("choix : ArrayList");
         }
@@ -43,8 +45,16 @@ public class TestCatalogue {
                         c.ajouter(new CD(scan.next(), scan.nextInt(), scan.nextDouble(), scan.next(), scan.next()));
                         c.affiche();
                     }
+                } else {
+                    System.out.println(" !! erreur de saisie !!");
+                    next = false;
                 }
+            } else {
+                System.out.println("!! erreur de saisie !!");
+                next = false;
             }
         }
     }
+
 }
+

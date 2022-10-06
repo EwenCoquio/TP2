@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70249c02-eddd-43b9-a40e-4df3f12acd73" name="Changes" comment="version finale vraie">
+    <list default="true" id="70249c02-eddd-43b9-a40e-4df3f12acd73" name="Changes" comment="version finale vraie cette fois c'est bon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Livre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpecifCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpecifCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpecifLivre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpecifLivre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCatalogue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +93,7 @@
       <workItem from="1664364908408" duration="606000" />
       <workItem from="1664449564767" duration="1005000" />
       <workItem from="1664475014085" duration="5564000" />
-      <workItem from="1665059859971" duration="1990000" />
+      <workItem from="1665059859971" duration="3853000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1664306063806</created>
@@ -141,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664481535734</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="version finale vraie cette fois c'est bon">
+      <created>1665063854085</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665063854085</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +167,8 @@
     <MESSAGE value="version final" />
     <MESSAGE value="tt" />
     <MESSAGE value="version finale vraie" />
-    <option name="LAST_COMMIT_MESSAGE" value="version finale vraie" />
+    <MESSAGE value="version finale vraie cette fois c'est bon" />
+    <option name="LAST_COMMIT_MESSAGE" value="version finale vraie cette fois c'est bon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

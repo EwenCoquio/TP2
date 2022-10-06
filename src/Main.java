@@ -13,17 +13,20 @@ public class Main {
 
 
         CatalogueTab c = new CatalogueTab();
+
         Scanner scan = new Scanner(System.in);
         c.ajouter(new Article(scan.nextLine(), scan.nextInt() , scan.nextDouble()));
         c.ajouter(new Article("bchjklz", 15 ,45 ));
         c.ajouter(new Article("bcsejhfgl", 421 ,5 ));
         c.affiche();
-/*
+
         CatalogueArray c1 = new CatalogueArray();
         c1.ajouter(new Article("azaz", 45, 12.56));
         c1.ajouter(new Article("dzaz", 96, 346));
         c1.ajouter(new Article("afge", 6, 166));
         c1.affiche();
-*/
+
+        Catalogue c6 = new CatalogueTab();
+
     }
 }
