@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class TestCatalogue {
     public static void main(String[] argv) {
         boolean next = true;
-        boolean algo = true;
         int choix;
         String choix2;
         Catalogue c = null;
@@ -55,6 +54,5 @@ public class TestCatalogue {
             }
         }
     }
-
 }
 
