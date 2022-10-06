@@ -1,9 +1,9 @@
 public class Article implements SpecifArticle {
-    String designation;
-    int quantite;
-    double prix_ht;
-    double prix_ttc;
-    final double TVA = 1.196;
+    private final String designation;
+    private int quantite;
+    private double prix_ht;
+    private final double prix_ttc;
+    private final double TVA = 1.196;
 
     Article(String d, int q, double ph){
         this.designation = d;
@@ -41,7 +41,7 @@ public class Article implements SpecifArticle {
         this.quantite -=q;
     }
 
-    public String toString(){
+   public String toString(){
         return "[" + this.designation + "]  :  " + this.prix_ttc + " euros  " + "("+this.quantite + " en stock)";
     }
 }

@@ -1,12 +1,20 @@
 public class CD extends Article {
 
-    String rubrique;
-    String auteur;
+    private final String rubrique;
+    private final String auteur;
 
     CD(String d, int q, double ph, String r, String a) {
         super(d, q, ph);
         this.rubrique = r;
         this.auteur = a;
+    }
+
+    public String getRubrique() {
+        return rubrique;
+    }
+
+    public String getAuteur() {
+        return auteur;
     }
 
     @Override

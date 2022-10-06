@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70249c02-eddd-43b9-a40e-4df3f12acd73" name="Changes" comment="tt">
+    <list default="true" id="70249c02-eddd-43b9-a40e-4df3f12acd73" name="Changes" comment="version finale vraie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Catalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Catalogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatalogueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CatalogueArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatalogueTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CatalogueTab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Livre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCatalogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpecifCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpecifCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpecifLivre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpecifLivre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,8 @@
       <workItem from="1664306030730" duration="417000" />
       <workItem from="1664364908408" duration="606000" />
       <workItem from="1664449564767" duration="1005000" />
-      <workItem from="1664475014085" duration="4731000" />
+      <workItem from="1664475014085" duration="5564000" />
+      <workItem from="1665059859971" duration="1990000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1664306063806</created>
@@ -135,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664476041938</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="version finale vraie">
+      <created>1664481535734</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664481535734</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +163,8 @@
     <MESSAGE value="t" />
     <MESSAGE value="version final" />
     <MESSAGE value="tt" />
-    <option name="LAST_COMMIT_MESSAGE" value="tt" />
+    <MESSAGE value="version finale vraie" />
+    <option name="LAST_COMMIT_MESSAGE" value="version finale vraie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
